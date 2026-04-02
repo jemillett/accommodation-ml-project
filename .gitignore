@@ -1,6 +1,20 @@
+## Python artifacts
 __pycache__/
 *.py[cod]
-*.pkl
-*.png
+*.pyo
 .ipynb_checkpoints/
+
+## Model files (regenerate by running notebook)
+*.pkl
+*.joblib
+
+## OS artifacts
 .DS_Store
+Thumbs.db
+
+## Jupyter
+.jupyter/
+
+## Virtual environments
+venv/
+.env/
